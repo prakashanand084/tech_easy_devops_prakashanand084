@@ -1,0 +1,5 @@
+bucket_name   = "anand-bucket-for-logs"
+instance_type = "t2.micro"
+ami_id        = "ami-08a6efd148b1f7504"
+key_name      = "lovely"
+repo_url      = "https://github.com/Trainings-TechEazy/test-repo-for-devops"
