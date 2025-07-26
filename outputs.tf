@@ -1,7 +1,7 @@
-output "public_ip" {
+output "ec2_public_ip" {
   value = aws_instance.app_instance.public_ip
 }
 
-output "app_url" {
-  value = "http://${aws_instance.app_instance.public_ip}/hello"
+output "s3_bucket_name" {
+  value = aws_s3_bucket.logs_bucket.bucket
 }
